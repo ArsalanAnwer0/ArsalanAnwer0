@@ -1,8 +1,8 @@
 **Hi there!**
 
-I'm **Arsalan**, an aspiring DevOps Engineer and Cloud Engineer passionate about building and deploying scalable infrastructure.
+I'm **Arsalan**, an aspiring DevOps and Cloud Engineer passionate about building and deploying scalable infrastructure.
 
-I love working on complex cloud challenges through automation. When I'm not deploying cloud systems, you'll find me exploring new technologies and tools to optimize infrastructure.
+When I'm not autmoating, deploying or building cloud infrastructure, you'll find me exploring and learning new technologies and tools.
 
 All my projects are built from the ground up, from planning to deploying production ready solutions that solve real world problems.
 
