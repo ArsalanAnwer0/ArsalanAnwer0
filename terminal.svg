@@ -1,0 +1,174 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terminal-bg { fill: #0d1421; }
+      .terminal-border { fill: none; stroke: #4ecdc4; stroke-width: 2; opacity: 0.6; }
+      .header { fill: #1f2937; }
+      .header-border { fill: none; stroke: #4ecdc4; stroke-width: 1; opacity: 0.3; }
+      .title-text { fill: #78a3c4; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; }
+      .status-text { fill: #27ca3f; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 10px; }
+      .prompt { fill: #ff6b6b; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; font-weight: 600; }
+      .path { fill: #4ecdc4; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .command { fill: #45b7d1; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; font-weight: 500; }
+      .output { fill: #e8e6e3; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .json { fill: #96ceb4; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .skill { fill: #27ca3f; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .success { fill: #27ca3f; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; font-weight: 500; }
+      .comment { fill: #78a3c4; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; font-style: italic; }
+      .cursor { fill: #4ecdc4; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .control-btn { r: 6; }
+      .close { fill: #ff5f56; }
+      .minimize { fill: #ffbd2e; }
+      .maximize { fill: #27ca3f; }
+    </style>
+  </defs>
+  
+  <!-- Terminal Background -->
+  <rect x="0" y="0" width="800" height="600" rx="12" class="terminal-bg"/>
+  <rect x="0" y="0" width="800" height="600" rx="12" class="terminal-border"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="40" rx="12" class="header"/>
+  <rect x="0" y="40" width="800" height="1" class="header-border"/>
+  
+  <!-- Control Buttons -->
+  <circle cx="20" cy="20" class="control-btn close"/>
+  <circle cx="40" cy="20" class="control-btn minimize"/>
+  <circle cx="60" cy="20" class="control-btn maximize"/>
+  
+  <!-- Title -->
+  <text x="80" y="25" class="title-text">arsalan@github-profile: ~/DevOps-Engineer</text>
+  <text x="720" y="25" class="status-text">● ONLINE</text>
+  <text x="20" y="70" class="prompt" opacity="0">
+    arsalan@devops
+    <animate attributeName="opacity" begin="0.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="120" y="70" class="path" opacity="0">
+    :~$ 
+    <animate attributeName="opacity" begin="0.6s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="150" y="70" class="command" opacity="0">
+    whoami
+    <animate attributeName="opacity" begin="0.7s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="88" class="output" opacity="0">
+    Arsalan - DevOps & Cloud Engineer
+    <animate attributeName="opacity" begin="1s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="124" class="prompt" opacity="0">
+    arsalan@devops
+    <animate attributeName="opacity" begin="2s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="120" y="124" class="path" opacity="0">
+    :~$ 
+    <animate attributeName="opacity" begin="2.1s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="150" y="124" class="command" opacity="0">
+    cat about.json
+    <animate attributeName="opacity" begin="2.2s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="142" class="output" opacity="0">
+    {
+    <animate attributeName="opacity" begin="2.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="160" class="json" opacity="0">
+      "passion": "architecting scalable cloud infrastructure",
+    <animate attributeName="opacity" begin="3s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="178" class="json" opacity="0">
+      "focus": "automation, deployment, production solutions",
+    <animate attributeName="opacity" begin="3.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="196" class="json" opacity="0">
+      "philosophy": "from planning to production-ready",
+    <animate attributeName="opacity" begin="4s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="214" class="json" opacity="0">
+      "hobbies": null,
+    <animate attributeName="opacity" begin="4.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="232" class="json" opacity="0">
+      "social_life": false,
+    <animate attributeName="opacity" begin="5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="250" class="json" opacity="0">
+      "expertise": "solving real-world problems"
+    <animate attributeName="opacity" begin="5.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="268" class="output" opacity="0">
+    }
+    <animate attributeName="opacity" begin="6s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="304" class="prompt" opacity="0">
+    arsalan@devops
+    <animate attributeName="opacity" begin="7s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="120" y="304" class="path" opacity="0">
+    :~$ 
+    <animate attributeName="opacity" begin="7.1s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="150" y="304" class="command" opacity="0">
+    kubectl get skills
+    <animate attributeName="opacity" begin="7.2s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="322" class="output" opacity="0">
+    NAME           READY   STATUS    AGE
+    <animate attributeName="opacity" begin="7.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="340" class="skill" opacity="0">
+    Docker         1/1     Running   5y
+    <animate attributeName="opacity" begin="8s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="358" class="skill" opacity="0">
+    Kubernetes     1/1     Running   4y
+    <animate attributeName="opacity" begin="8.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="376" class="skill" opacity="0">
+    Terraform      1/1     Running   4y
+    <animate attributeName="opacity" begin="9s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="394" class="skill" opacity="0">
+    Ansible        1/1     Running   3y
+    <animate attributeName="opacity" begin="9.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="412" class="skill" opacity="0">
+    Jenkins        1/1     Running   3y
+    <animate attributeName="opacity" begin="10s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="448" class="prompt" opacity="0">
+    arsalan@devops
+    <animate attributeName="opacity" begin="11s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="120" y="448" class="path" opacity="0">
+    :~$ 
+    <animate attributeName="opacity" begin="11.1s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="150" y="448" class="command" opacity="0">
+    aws configure list
+    <animate attributeName="opacity" begin="11.2s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="466" class="output" opacity="0">
+    Cloud Platforms: AWS | Azure | GCP
+    <animate attributeName="opacity" begin="11.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="502" class="prompt" opacity="0">
+    arsalan@devops
+    <animate attributeName="opacity" begin="12.5s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="120" y="502" class="path" opacity="0">
+    :~$ 
+    <animate attributeName="opacity" begin="12.6s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="150" y="502" class="command" opacity="0">
+    uptime
+    <animate attributeName="opacity" begin="12.7s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="520" class="success" opacity="0">
+    24:00:00 up ∞ days, 1 user, load: always building
+    <animate attributeName="opacity" begin="13s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+  <text x="20" y="556" class="comment" opacity="0">
+    arsalan@devops:~$ # Building the future...
+    <animate attributeName="opacity" begin="14s" dur="0.3s" values="0;1" fill="freeze"/>
+  </text>
+</svg>
