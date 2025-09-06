@@ -7,7 +7,7 @@
 </div>
 
 
-When I'm not automating, deploying or building cloud infrastructure, you'll find me reading research papers and learning new technologies and tools.
+When I'm not automating, deploying or building, you'll find me reading research papers and learning new technologies and tools.
 
 ![Terminal](https://github.com/user-attachments/assets/846ad0d9-3175-437c-b5a1-1faf4062d444)
 
