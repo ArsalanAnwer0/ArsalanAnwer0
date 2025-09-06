@@ -9,7 +9,7 @@
 
 When I'm not automating, deploying or building cloud infrastructure, you'll find me reading research papers and learning new technologies and tools.
 
-![five](https://github.com/user-attachments/assets/dc6673cb-b2ff-4dc4-a016-5fde834c3ed8)
+![Terminal](https://github.com/user-attachments/assets/846ad0d9-3175-437c-b5a1-1faf4062d444)
 
 All my projects are built from the ground up, from planning to deploying production ready solutions that solve real world problems.
 
