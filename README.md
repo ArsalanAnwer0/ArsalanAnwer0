@@ -1,6 +1,4 @@
 <div align="center">
-  
-# Hi, I'm Arsalan 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=600&lines=Development+Engineer;DevOps+Engineer;Platform+Engineering;Cloud+Architecture;Infrastructure+Automation;Always+Building+Solutions)](https://git.io/typing-svg)
 
