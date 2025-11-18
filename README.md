@@ -9,12 +9,3 @@ When I'm not automating, deploying or building, you'll find me reading research 
 
 ![Terminal](https://github.com/user-attachments/assets/846ad0d9-3175-437c-b5a1-1faf4062d444)
 
----
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/_PORTFOLIO-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arsalan-portfolio-umber.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arsalan-anwer-cloud/)
-[![Email](https://img.shields.io/badge/_EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arsalan.anwer9050@gmail.com)
-
-</div>
