@@ -1,8 +1,8 @@
-# I understand things by breaking them into:
+# I learn things by breaking them into:
 
 ## **what · how · why**
 
-so here’s the same, applied to me
+you can learn about me the same way
 
 ## what
 
